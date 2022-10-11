@@ -1,0 +1,12 @@
+public class CorelDrawImageAdapter extends CorelDraw_Image implements ImagemTarget {
+ 
+    @Override
+    public void carregarImagem(String nomeDoArquivo) {
+        corelDraw_CarregarImagem(nomeDoArquivo);
+    }
+ 
+    @Override
+    public void desenharImagem(int posX, int posY, int largura, int altura) {
+        corelDraw_DesenharImagem(largura, altura, posX, posY);
+    }
+}
