@@ -1,3 +1,4 @@
+// Target
 export interface Weapon {
   power(): void;
 }

@@ -1,5 +1,6 @@
 import { CoffeeMachine, Delivery, Deposit } from './subsystems';
 
+// Facade
 export class CoffeeShop {
   orderCoffee(intensity: number) {
     const deposit = new Deposit();

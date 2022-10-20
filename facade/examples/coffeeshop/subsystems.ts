@@ -1,3 +1,7 @@
+/**
+ * Subsystems of Facade
+ */
+
 export class Deposit {
   getCoffee() {
     console.log('> Getting coffe in deposit... 🔍')
